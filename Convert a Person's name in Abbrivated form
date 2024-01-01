@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    char firstName[20],middleName[20],lastName[20];
+    scanf("%s",firstName);
+    scanf("%s",middleName);
+    scanf("%s",lastName);
+    printf("%c. %c. %s\n",firstName[0],middleName[0],lastName);
+    return 0;
+}
